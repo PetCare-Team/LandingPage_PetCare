@@ -31,7 +31,7 @@ html {
     display: inline-block;
     height: 40px;
     border-radius: 8px;
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     
 }
 
@@ -43,7 +43,7 @@ html {
     display: inline-block;
     height: 40px;
     border-radius: 8px;
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     margin-right: 2rem;
 }
 li{
@@ -59,6 +59,10 @@ a{
 /* Header */
 .header{
     background-image: url("assets/img/header.png");
+        background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+
     display: flex;
     justify-content: space-between;
     width: 100%;
@@ -96,7 +100,7 @@ nav ul{
 
 nav ul li a{
     color: white;
-    font-size: 1.4rem;
+    font-size: 1.6rem;
 }
 
 /* Hero section */
@@ -105,6 +109,9 @@ nav ul li a{
     width: 100%;
     height: auto;
     background-image: url("assets/img/Inicio.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
 }
 
 .hero {
@@ -112,6 +119,8 @@ nav ul li a{
     display: flex;
     padding-top: 6rem;
     padding-bottom: 6rem;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .hero__img{
@@ -122,14 +131,25 @@ nav ul li a{
 
 .hero__info{
     width: 50%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 .hero__info h1{
     font-size: 3.8rem;
     margin-bottom: 2rem;
+    width: 70%;
 }
 .hero__info p{
+    width: 70%;
     font-size: 1.6rem;
     margin-bottom: 1.6rem;
+}
+
+.hero__info button{
+    display: block;
+    width: fit-content;
 }
 
 .hero__form{
@@ -166,7 +186,7 @@ nav ul li a{
     color: black;
 }
 ::placeholder {
-    color: #eeb148;
+    color: #352f25;
 }
 
 
@@ -188,6 +208,9 @@ nav ul li a{
     width: 100%;
     height: auto;
     background-image: url("assets/img/Características.png");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
 }
 
 .caracteristicas {
@@ -238,6 +261,9 @@ nav ul li a{
     width: 100%;
     height: auto;
     background-image: url("assets/img/¿Quiénes somos.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
 }
 
 .about{
@@ -296,7 +322,10 @@ nav ul li a{
 .contact-section{
     width: 100%;
     height: auto;
-     background-image: url("assets/img/Descargar.png");
+    background-image: url("assets/img/Descargar.png");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
 }
 
 .contact{
