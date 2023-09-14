@@ -5,3 +5,214 @@
     font-family: 'Inter', sans-serif;
 }
 
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.left-side {
+    position: relative;
+    width: 50%;
+    overflow: hidden;
+}
+
+.left-side img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.title {
+    position: absolute;
+    top: 25%;
+    left: 10%;
+    font-size: 64px;
+    color: #FFFFFF;
+}
+
+.subtitle {
+    position: absolute;
+    top: 35%;
+    left: 10%;
+    font-size: 48px;
+    color: #FFFFFF;
+}
+
+.right-side {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.centered-div {
+    width: 672px;
+    height: 412px;
+    border: 3px solid #FBB847;
+    border-radius: 15px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.welcome {
+    font-size: 56px;
+    color: #FBB847;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+
+button {
+    font-size: 20px;
+    width: 255px;
+    height: 65px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+    transition: 0.3s;
+}
+
+.register-btn {
+    background-color: #FFFFFF;
+    border: 3px solid #FBB847;
+    color: #000000;
+    margin-bottom: 15px;
+}
+
+.register-btn:hover {
+    background-color: #FBB847;
+    color: #FFFFFF;
+}
+
+.primary-btn {
+    background-color: #FBB847;
+    border: 3px solid #FBB847;
+    color: #000000;
+}
+
+.primary-btn:hover {
+    background-color: #FFFFFF;
+    color: #FBB847;
+}
+
+/* ... Estilos existentes ... */
+
+.input-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .input-field {
+    width: 48%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border-radius: 15px;
+    border: 4px solid #FBB847;
+    background-color: #FFF389;
+  }
+  
+  .submit-btn {
+    width: 255px;
+    height: 65px;
+    border-radius: 15px;
+    background-color: #FFFFFF;
+    color: #000000;
+    border: 3px solid #FBB847;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .submit-btn:hover {
+    background-color: #FBB847;
+    color: #FFFFFF;
+  }
+  
+  
+.registration-content {
+    padding-top: 0px;
+  }
+
+
+
+
+
+  /* ... Estilos existentes ... */
+
+.login-content {
+    padding-top: 10px;
+  }
+  
+  .login-content .input-field {
+    height: 65px;
+    width: 609px;
+    border-radius: 15px;
+    background-color: #FFF389;
+    border: 4px solid #FBB847;
+    margin-bottom: 10px;
+  }
+  
+  .login-content .forgot-password,
+  .login-content .register-link {
+    font-size: 16px;
+    text-align: center;
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .login-content .submit-btn {
+    height: 65px;
+    width: 255px;
+    border-radius: 15px;
+    background-color: #FFFFFF;
+    color: #000000;
+    border: 3px solid #FBB847;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .login-content .submit-btn:hover {
+    background-color: #FBB847;
+    color: #FFFFFF;
+  }
+  
+  /* ... Estilos existentes ... */
+  
+  
+/* ... Estilos existentes ... */
+
+.password-recovery-content {
+    padding-top: 10px;
+  }
+  
+  .password-recovery-content .recovery-instructions {
+    font-size: 20px;
+    color: #797979;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .password-recovery-content .send-btn {
+    height: 65px;
+    width: 370px;
+    border-radius: 15px;
+    background-color: #E0E0E0;
+    color: #FFFFFF;
+    transition: background-color 0.3s, border-color 0.3s;
+    cursor: not-allowed;
+  }
+  
+  .password-recovery-content .send-btn.send-btn-enabled {
+    background-color: #FFFFFF;
+    border: 3px solid #FBB847;
+    cursor: pointer;
+    color: #000000;
+  }
+  
+  .password-recovery-content .send-btn.send-btn-enabled:hover {
+    background-color: #FBB847;
+    color: #FFFFFF;
+  }
+  
+  /* ... Estilos existentes ... */
+  
